@@ -1,0 +1,11 @@
+// Measurements ==============================
+
+$default-block: 40px;
+$double-block: $default-block * 2;
+$half-block: $default-block / 2;
+$quarter-block: $default-block / 4;
+
+
+// Layout ====================================
+$content-max-width: 1200px;
+$layout-gutter: $double-block;

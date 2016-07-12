@@ -1,0 +1,28 @@
+.products-article {
+  header {
+    text-align: center;
+
+    li {
+      background: #ededed;
+      display: inline-block;
+      padding: $quarter-block $half-block;
+
+      a {
+        color: #617f8d;
+        transition: background ease 0.2s;
+
+        &:hover {
+          background: mix(#617f8d, #fff, 80%);
+        }
+      }
+
+      &.active {
+        background: #617f8d;
+
+        a {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

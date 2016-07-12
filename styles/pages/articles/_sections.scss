@@ -1,0 +1,46 @@
+.products-article {
+  section {
+    display: none;
+
+    &.active {
+      display: block;
+    }
+
+    h2 {
+      text-align: center;
+    }
+  }
+}
+
+.product-features-container {
+  li {
+    margin-bottom: $half-block;
+  }
+}
+
+.product-hero-container, .product-features-container,
+.icon-container, .text-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.product-hero-container, .product-features-container {
+  width: 49%;
+}
+
+.icon-container {
+  width: 20%;
+}
+
+.text-container {
+  width: 69%;
+  vertical-align: top;
+
+  h4 {
+    margin: 0 0 $quarter-block;
+  }
+
+  p {
+    margin: 0;
+  }
+}
