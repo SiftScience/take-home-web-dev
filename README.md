@@ -5,6 +5,7 @@ of this exercise is to get a good view on your technical skills and see how you
 attack problems. We're going to focus more on best practices and
 how you structure / solve problems.
 
+
 ## Goal
 
 #### Problems to solve:
@@ -35,13 +36,13 @@ familiarity with a library.
 Once you are satisfied with your work please be sure to `commit` your work. Zip
 up the project folder and send it to us as an attachment as an email.
 
-
 #### Nice to haves:
-- Performant animations. I.e. leverage GPU vs CPU.
 
+- Performant animations. I.e. leverage GPU vs CPU.
 
 #### Real Live Demo:
 [https://siftscience.com/chargebacks#features](https://siftscience.com/chargebacks#features)
+
 
 ## Setup
 
@@ -66,9 +67,9 @@ runner up!
 **WARNING**: This repo includes a `git` submodule. If you inadvertantly forget
 the `--recursive` flag simply run `git submodule update --init --recursive`
 
+
 #### Tasks
 The primary `task` is `dev` which will watch your html / sass / javascript files
 and load server them at `localhost:3000/`
 
 - `gulp dev`
-
