@@ -55,8 +55,11 @@ runner up!
 
 #### Installation
 
-- git clone repo
+- `git clone --recursive git@github.com:SiftScience/take-home-web-dev.git`
 - npm install
+
+**WARNING**: This repo includes a `git` submodule. If you inadvertantly forget
+the `--recursive` flag simply run `git submodule update --init --recursive`
 
 #### Tasks
 The primary `task` is `dev` which will watch your html / sass / javascript files
