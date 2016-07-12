@@ -22,7 +22,13 @@ how you structure / solve problems.
        i.e. **not** `this-box`)
 
      **Javascript**
+     - Code structure
      - Event Bindings / Delegations
+
+#### Restrictions:
+Please reframe from using additional libraries ( jQuery is already installed ).
+We're looking for how well you know the core languages as opposed your
+familiarity with a library.
 
 #### How to submit
 
@@ -36,7 +42,6 @@ up the project folder and send it to us as an attachment as an email.
 
 #### Real Live Demo:
 [https://siftscience.com/chargebacks#features](https://siftscience.com/chargebacks#features)
-
 
 ## Setup
 
