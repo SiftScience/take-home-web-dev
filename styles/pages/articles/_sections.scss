@@ -1,6 +1,14 @@
 .products-article {
   section {
     display: none;
+    text-align: justify;
+    font-size: 0px;
+
+    &:after {
+      content: '';
+      display: inline-block;
+      width: 100%;
+    }
 
     &.active {
       display: block;
@@ -21,11 +29,12 @@
 .product-hero-container, .product-features-container,
 .icon-container, .text-container {
   display: inline-block;
+  font-size: 1rem;
   vertical-align: middle;
 }
 
 .product-hero-container, .product-features-container {
-  width: 49%;
+  width: 50%;
 }
 
 .icon-container {
@@ -33,7 +42,7 @@
 }
 
 .text-container {
-  width: 69%;
+  width: 70%;
   vertical-align: top;
 
   h4 {

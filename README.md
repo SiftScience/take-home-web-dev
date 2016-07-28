@@ -11,23 +11,23 @@ how you structure / solve problems.
 #### Problems to solve:
 - Finish the panel navigation so when a user clicks on a different product tab
  the corresponding product panel appears.
- - You're job is also to make this panel responsive. Can a user access the same
+ - Your job is also to make this panel responsive. Can a user access the same
    content on their phone? How do you maintain usability on a smaller screen?
 
 #### Things to get right:
 
-     **CSS / SASS**
-     - Sass architecture ( how you leverage SASS to aid you in development ).
-     - Use of css specificity
-     - Readable, maintable code. I.e. modularity, rememberable name choices (
-       i.e. **not** `this-box`)
+    **CSS / SASS**
+    - Sass architecture (how you leverage SASS to aid you in development).
+    - Use of css specificity
+    - Readable, maintable code. I.e. modularity, rememberable name choices
+    (i.e. **not** `this-box`)
 
-     **Javascript**
-     - Code structure
-     - Event Bindings / Delegations
+    **Javascript**
+    - Code structure
+    - Event Bindings / Delegations
 
 #### Restrictions:
-Please reframe from using additional libraries ( jQuery is already installed ).
+Please reframe from using additional libraries (jQuery is already installed).
 We're looking for how well you know the core languages as opposed your
 familiarity with a library.
 
@@ -38,7 +38,7 @@ up the project folder and send it to us as an attachment as an email.
 
 #### Nice to haves:
 
-- Performant animations. I.e. leverage GPU vs CPU.
+- Fade each panel in! (and make sure to do it performantly!)
 
 #### Real Live Demo:
 [https://siftscience.com/chargebacks#features](https://siftscience.com/chargebacks#features)
@@ -53,9 +53,9 @@ runner up!
 
 #### Dependencies
 
-- `node > 6` ( suggest using a version manager:
+- `node > 6` (suggest using a version manager:
   [nvm](https://github.com/creationix/nvm) or
-    [nodenv](https://github.com/nodenv/nodenv) )
+    [nodenv](https://github.com/nodenv/nodenv))
 - gulp `npm install -g gulp-cli`
 
 
