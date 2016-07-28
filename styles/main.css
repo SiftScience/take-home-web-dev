@@ -1,0 +1,96 @@
+a {
+  text-decoration: none; }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.products-article header, .products-article section {
+  margin: 0 auto;
+  max-width: calc(100% - 80px);
+  width: 1200px;
+}
+
+.products-article header {
+  text-align: center;
+}
+
+.products-article header li {
+  background: #ededed;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.products-article header li a {
+  color: #617f8d;
+  transition: background ease 0.2s;
+}
+
+.products-article header li a:hover {
+  background: #8199a4;
+}
+
+.products-article header li.active {
+  background: #617f8d;
+}
+
+.products-article header li.active a {
+  color: #ffffff;
+}
+
+.products-article section {
+  display: none;
+  text-align: justify;
+  font-size: 0px;
+}
+
+.products-article section:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.products-article section.active {
+  display: block;
+}
+
+.products-article section h2 {
+  text-align: center;
+}
+
+.product-features-container li {
+  margin-bottom: 20px;
+}
+
+.product-hero-container, .product-features-container,
+.icon-container, .text-container {
+  display: inline-block;
+  font-size: 1rem;
+  vertical-align: middle;
+}
+
+.product-hero-container, .product-features-container {
+  width: 50%;
+}
+
+.icon-container {
+  width: 20%;
+}
+
+.text-container {
+  width: 70%;
+  vertical-align: top;
+}
+
+.text-container h4 {
+  margin: 0 0 10px;
+}
+
+.text-container p {
+  margin: 0;
+}
