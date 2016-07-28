@@ -1,12 +1,11 @@
-var webpack = require('webpack');
-var paths = require('../path-builder');
 var _ = require('underscore');
+var paths = require('../path-builder');
+var webpack = require('webpack');
 
 var base = {
   module: {
     loaders: [
-      { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
-      { test: /\.ejs$/, exclude: /node_modules/, loader: 'ejs-compiled' },
+      { test: /\.modernizrrc$/, loader: 'modernizr' },
     ],
   },
   resolve: {
@@ -14,8 +13,9 @@ var base = {
     fallback: [paths.repoRoot + '/scripts'],
     alias: {
       helpers: paths.repoRoot + '/specs/spec_helpers',
-      vendors: paths.repoRoot + '/lib/scripts/vendors',
       jelly: paths.repoRoot + '/jelly/lib/scripts',
+      modernizr$: paths.repoRoot + '/.modernizrrc',
+      vendors: paths.repoRoot + '/lib/scripts/vendors',
     },
   },
   plugins: [

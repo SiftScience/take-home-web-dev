@@ -16,15 +16,15 @@ how you structure / solve problems.
 
 #### Things to get right:
 
-    **CSS / SASS**
-    - Sass architecture (how you leverage SASS to aid you in development).
-    - Use of css specificity
-    - Readable, maintable code. I.e. modularity, rememberable name choices
-    (i.e. **not** `this-box`)
+**CSS / SASS**
+- Sass architecture (how you leverage SASS to aid you in development).
+- Use of css specificity
+- Readable, maintable code. I.e. modularity, rememberable name choices
+(i.e. **not** `this-box`)
 
-    **Javascript**
-    - Code structure
-    - Event Bindings / Delegations
+**Javascript**
+- Code structure
+- Event Bindings / Delegations
 
 #### Restrictions:
 Please reframe from using additional libraries (jQuery is already installed).
@@ -38,7 +38,11 @@ up the project folder and send it to us as an attachment as an email.
 
 #### Nice to haves:
 
-- Fade each panel in! (and make sure to do it performantly!)
+- Fade each panel in keeping performance in mind!
+- Use Modernizr to support IE10+
+  - Add css feature detection to `feature-detects` in `.modernizrrc`, 
+  [view to view a full list](https://github.com/Modernizr/Modernizr/blob/master/lib/config-all.json).
+
 
 #### Real Live Demo:
 [https://siftscience.com/chargebacks#features](https://siftscience.com/chargebacks#features)
