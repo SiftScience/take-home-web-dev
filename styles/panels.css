@@ -18,3 +18,11 @@
 .panel-two {
   display: none;
 }
+
+.content.display-panel-two .panel-one {
+  display: none;
+}
+
+.content.display-panel-two .panel-two {
+  display: block;
+}
