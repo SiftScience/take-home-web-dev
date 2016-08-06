@@ -1,0 +1,21 @@
+.nav {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.nav a {
+  font-size: 20px;
+}
+
+.other-nav {
+  margin: 0 auto;
+  text-align: center;
+  width: 600px;
+}
+
+.other-nav a {
+  background: #eee;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+}

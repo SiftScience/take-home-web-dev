@@ -1,0 +1,20 @@
+.panel-one, .panel-two {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.panel-one img, .panel-two img {
+  width: 200px;
+}
+
+.first-panel, .second-panel, .third-panel {
+  box-sizing: border-box;
+  float: left;
+  padding: 0 10px;
+  box-sizing: content-box;
+  width: 33%;
+}
+
+.panel-two {
+  display: none;
+}
